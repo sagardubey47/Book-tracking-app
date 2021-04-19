@@ -1,0 +1,19 @@
+
+.mainbody-container {
+    margin-left: 200px;
+    padding: 5px 10px; 
+}
+
+header {
+    margin-left: 25px;
+    font-size: 2.5rem;
+    line-height: 2;
+    font-weight: 700;
+    border-bottom: solid 2px #ccc;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}

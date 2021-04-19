@@ -1,0 +1,23 @@
+.book-card {
+    width: 300;
+    height: 450;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    
+    background-color: #3071c7;
+    /* background-color: #FD7272; */
+    /* background-color: #2C3A47; */
+
+    box-shadow: 6px 6px 4px -1px rgba(24, 24, 24, 0.85);
+    -webkit-box-shadow: 6px 6px 4px -1px rgba(24, 24, 24, 0.85);
+    -moz-box-shadow: 6px 6px 4px -1px rgba(24, 24, 24, 0.85);
+}
+
+.title {
+     display: block;
+     width: 100px;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+}

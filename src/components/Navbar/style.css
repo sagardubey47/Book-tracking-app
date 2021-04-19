@@ -1,0 +1,29 @@
+.navbar-container {
+    flex: 0.2;
+    border-right: solid 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+}
+
+.library,.setting {
+   margin: 20px 0px;
+}
+
+ h3 {
+  padding: 10px 5px;
+  font-size: 1.8rem;
+}
+
+.row {
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+
+.row span {
+  margin-left: 10px;
+}
